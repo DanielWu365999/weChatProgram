@@ -4,16 +4,19 @@
 
     <view class="weui-cell weui-cell_input">
       <view class="section__title">账号</view>
-      <input name="weui-input" placeholder="" />
+      <input name="weui-input" placeholder="111" />
     </view>
      <view class="weui-cell weui-cell_input">
       <view class="section__title">密码</view>
-      <input name="weui-input" password placeholder="" />
+      <input name="weui-input" password placeholder="2222" />
     </view>
     <view class="btn-area">
       <button formType="submit">Submit</button>
       <button formType="reset">Reset</button>
     </view>
   </form>
-  
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <view wx:else>请升级微信版本</view>
+  <open-data type="userAvatarUrl"></open-data>
+  <open-data type="userNickName"></open-data>
 </view>
