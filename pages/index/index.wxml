@@ -10,7 +10,7 @@
   </scroll-view>
   <view class="menu-view" hidden="true">
     <image class="menu-icon" src="../../images/user.png"></image>
-    <text class="menulabel">تۈزگۈچىدىن</text>
+    <text class="menulabel">个人中心</text>
   </view>
   <view class="menu-view" hidden="true">
     <image class="menu-icon" src="../../images/heard.png"></image>

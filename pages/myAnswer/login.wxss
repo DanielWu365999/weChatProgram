@@ -1,0 +1,6 @@
+/* pages/myAnswer/login.wxss */
+.bg{
+  height: 100vh;
+  background-size: contain;
+  padding: 15rpx;
+}
